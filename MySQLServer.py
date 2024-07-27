@@ -14,7 +14,7 @@ try:
     cursor = mydb.cursor()
     
     try:
-        cursor.execute(f"CREATE DATABASE {database_name}")
+        cursor.execute(f"CREATE DATABASE IF NOT EXISTS {database_name}")
         print(f"Database '{database_name}' created successfully!")
     except mysql.connector.Error as err:
         if err.errno == errorcode.ER_DB_CREATE_EXISTS:
