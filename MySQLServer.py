@@ -4,7 +4,7 @@ host = "192.168.1.189"
 user = "root"
 passwd = "Theodora123!"
 
-database_name = "alx_book_store"
+
 try:
     mydb = mysql.connector.connect(
         host = "192.168.1.189",
@@ -14,13 +14,13 @@ try:
     cursor = mydb.cursor()
     
     try:
-        cursor.execute(f"CREATE DATABASE IF NOT EXISTS {database_name}")
-        print(f"Database '{database_name}' created successfully!")
+        cursor.execute(f"CREATE DATABASE IF NOT EXISTS alx_book_store")
+        print(f"Database 'alx_book_store' created successfully!")
     except mysql.connector.Error as err:
         if err.errno == errorcode.ER_DB_CREATE_EXISTS:
-            print(f"Database '{database_name}' already exists.")
+            print(f"Database 'alx_book_store' already exists.")
         else:
-            print(f"Failed to create database '{database_name}': {err}")
+            print(f"Failed to create database 'alx_book_store': {err}")
 
 except mysql.connector.Error as err:
     print(f"Error connecting to MySQL: {err}")
