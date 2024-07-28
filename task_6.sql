@@ -14,11 +14,11 @@ VALUES (
     3,
     'Obed Ehoneah',
     'eobed@sandtech.com',
-    '125 Happiness Ave.'
+    "125 Happiness Ave."
 ),
 (
     4,
     'Nehemial Kampo',
     'nkamolu@sandthech.com',
-    '126 Happiness Ave.'
+    "126 Happiness Ave."
 );
