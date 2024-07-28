@@ -9,16 +9,16 @@ VALUES (
     'Cole Baidoo', 
     'cbaidoo@sandtech.com', 
     '124 Happiness Ave.'
-)
-VALUES(
+),
+(
     3,
     'Obed Ehoneah',
     'eobed@sandtech.com',
     '125 Happiness Ave.'
-)
-VALUES(
+),
+(
     4,
     'Nehemial Kampo',
     'nkamolu@sandthech.com',
     '126 Happiness Ave.'
-)
+);
