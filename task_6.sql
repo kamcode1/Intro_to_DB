@@ -18,7 +18,7 @@ VALUES (
 ),
 (
     4,
-    'Nehemial Kampo',
+    'Nehemial Kamolu',
     'nkamolu@sandthech.com',
     '126 Happiness  Ave.'
 );
