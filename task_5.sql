@@ -1,4 +1,4 @@
-INSERT INTO Customers(
+INSERT INTO customers(
     customer_id INT PRIMARY KEY,
     customer_name VARCHAR(215),
     email VARCHAR(215),
